@@ -1,0 +1,13 @@
+.btn{
+    text-align: center;
+}
+.btn button{
+    padding: 40px;
+}
+.testi h1{
+    font-size: 44px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #25185c;
+    text-align: center;
+}

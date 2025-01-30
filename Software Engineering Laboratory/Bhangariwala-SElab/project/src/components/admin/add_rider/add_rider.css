@@ -1,0 +1,9 @@
+.add-rider-container{
+    width:450px;
+    margin-left: 80%;
+    border:1px solid black;
+    padding: 40px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+}

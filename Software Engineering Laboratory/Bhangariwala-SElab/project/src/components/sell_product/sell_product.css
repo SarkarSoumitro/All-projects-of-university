@@ -1,0 +1,73 @@
+.sell-product-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .sell-product-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  label {
+    flex: 1; /* Take up 1/3 of the space */
+    text-align: left;
+    margin-right: 10px; /* Adjust spacing between label and input */
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    flex: 1; /* Take up 1/3 of the space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Ensure input[type="file"] spans the whole width */
+  input[type="file"] {
+    width: calc(100% - 10px); /* Subtract margin from total width */
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make button full width */
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  .in-price{
+    margin-top:4px;
+    margin-left:3px;
+    height:60px;
+  }
+  .marge-row{
+    display: flex;
+  }
+  .price{
+    margin-top:8px;
+    margin-left:3px;
+  }
+  .sell-title{
+    font-size:30px;
+  }

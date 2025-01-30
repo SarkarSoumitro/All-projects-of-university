@@ -1,0 +1,57 @@
+.rider-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rider-details {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    width:450px;
+    height: 520px;
+  }
+  .rider-details p{
+    padding:10px;
+    display: flex;
+  }
+  .rprofile-icon{
+    margin-right: 10px;
+    font-size: large;
+    margin-left:10px;
+  }
+  .pickup-requests-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .pickup-requests-table th, .pickup-requests-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .pickup-requests-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .pickup-requests-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .pickup-requests-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .riderBtn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .riderBt:hover {
+    background-color: #0056b3;
+  }
+  

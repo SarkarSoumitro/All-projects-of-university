@@ -1,0 +1,50 @@
+.search {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width:300px;
+  }
+  .filter{
+    width:300px;
+    border:1px solid #ccc;
+  }
+  .search-icon {
+    font-size: 30px;
+    color: #888;
+    padding-left:5px;
+  }
+  
+  .search-input {
+    flex: 1;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .search-input::placeholder {
+    color: #aaa;
+  }
+.filter-button{
+    background-color:rgb(36, 214, 116);
+    width:300px;
+    border-radius:5px;;
+}
+.uper_block{
+    display: flex;
+}
+.manipulate{
+  background-color: antiquewhite;
+}
+.manipulate img{
+    width: 350px;
+    height: 280px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.shop-title{
+    font-size: 30px;
+    color: rgb(18, 78, 80);
+}

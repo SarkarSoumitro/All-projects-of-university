@@ -1,0 +1,55 @@
+.refPage{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    border: 2px solid #79bb71;
+    border-radius: 6px;
+    width: 75%;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+.regImg img{
+    border-radius:10px;
+    height: 550px;
+    width: 550px;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.userInfo input{
+    padding: 10px;
+    margin:6px;
+    border-radius: 5px;
+}
+.userInfo .uname{
+    display: flex;
+}
+.userInfo textarea{
+    padding: 10px;
+    margin:6px;
+    border-radius: 5px;
+}
+.datePicker {
+    position: relative;
+  }
+  
+  .datePicker input[type="date"] {
+    padding: 9px 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 97%;
+    box-sizing: border-box;
+  }
+.userInfo .subBtn{
+    padding: 10px;
+    margin:6px;
+    border-radius: 5px;
+    background-color: #8dbd88;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

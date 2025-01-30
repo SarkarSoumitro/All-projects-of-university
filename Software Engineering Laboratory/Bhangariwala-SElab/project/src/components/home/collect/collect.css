@@ -1,0 +1,41 @@
+.collect{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}  
+.collect h1{
+    font-size: 44px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #25185c;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.item img{
+    width: 320px;
+    height: 350px;
+    border-radius: 100%;
+    margin: 0 30px;
+}
+.sub-item h2{
+    font-size: 28px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+.sub-item p{
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+.sub-item a{
+    color: #000000 ;
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+.profile-info{
+  width: 400px;
+  height: 400px;
+  border:1px solid #ccc;
+}
+.info{
+  margin-top: 20px;
+  font-size:20px;
+}
+.contain{
+  display: flex;
+}
+.oreder-tab{
+  width: 100%;
+}
+.oreder-tab h2{
+  font-size:20px;
+  text-align: center;
+}

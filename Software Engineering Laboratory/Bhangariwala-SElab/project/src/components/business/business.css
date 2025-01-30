@@ -1,0 +1,58 @@
+.service{
+  display: flex;
+}
+.service img{
+  width: 600px;
+  height: 400px;
+  border-radius:20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.service-content{
+  width: 600px;
+}
+.service-content h3{
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgb(63, 176, 228);
+}
+.service-btn{
+  background-color:rgb(63, 176, 228);
+  margin-top:30px;
+}
+.header-img img{
+  width: 100%;
+  height: 700px;
+}
+.info-flow {
+  background-color: rgb(63, 176, 228);
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.info-flow p {
+  display: inline-block;
+  animation: flow 20s linear infinite;
+}
+
+@keyframes flow {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.info-flow.reverse p {
+  animation-direction: reverse;
+}
+.flow-text{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}

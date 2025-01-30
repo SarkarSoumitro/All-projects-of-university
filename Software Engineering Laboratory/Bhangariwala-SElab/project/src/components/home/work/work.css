@@ -1,0 +1,31 @@
+.work h1{
+    font-size: 44px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #25185c;
+    text-align: center;
+}
+.work p{
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+.line h2{
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+
+}
+.line{
+    display: flex;
+    justify-content: center;
+}
+.line img{
+    width: 400px;
+    height:360px;
+    margin: 0 30px;
+    border-radius:100%;
+}

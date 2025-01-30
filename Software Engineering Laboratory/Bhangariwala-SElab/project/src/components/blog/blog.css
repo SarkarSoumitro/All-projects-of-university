@@ -1,0 +1,51 @@
+.p1 {
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    display: inline-block;
+    /* vertical-align: top; */
+  }
+  .p1 h1{
+    text-align:left;
+    font-size: 20px;
+    color: rgb(18, 78, 80);
+  }
+  .b-date{
+    color: rgb(146, 186, 202);
+  }
+  .p1 a{
+    color: black;
+  }
+  .p1 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+  .line-combine{
+    display: flex;
+  }
+  .post{
+    margin-left:20px;
+  }
+  .transaction{
+    display: flex;
+    margin-top:30px;
+    margin-left:20px; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+  
+  .oldP{
+    display: flex;
+    margin-left:80%;
+} 
+
+.newP{
+    display: flex;
+}
+.icon1{
+    margin-top:5px;
+    font-size: large;
+}
+  

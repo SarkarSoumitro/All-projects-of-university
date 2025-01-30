@@ -1,0 +1,11 @@
+.rcard-items{
+  width: 300px;
+  margin: 5px;
+  padding:5px;
+  border:1px solid #8a8787;
+  border-radius: 10px;
+
+}
+.rcard-items:hover{
+  transform: translateY(-5px);
+}
